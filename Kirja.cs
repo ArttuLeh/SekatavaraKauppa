@@ -27,17 +27,6 @@ namespace SekatavaraKauppa2
         }
         public override void Kysy()
         {
-            //Console.Write("Anna kirjan tekijä: ");
-            //tekija = Console.ReadLine();
-            //Console.Write("Anna kirjan nimi: ");
-            //kuvaus = Console.ReadLine();
-            //Console.Write("Anna kirjan koodi: ");
-            //koodi = Console.ReadLine();
-            //Console.Write("Anna kirjan hinta: ");
-            //string syote = Console.ReadLine();
-            //double.TryParse(syote, out hinta);
-            //new Kirja(tekija, koodi, hinta, kuvaus);
-
         }
     }
 }
