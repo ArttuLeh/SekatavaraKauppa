@@ -1,0 +1,7 @@
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\bin\Debug\SekatavaraKauppa2.exe.config
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\bin\Debug\SekatavaraKauppa2.exe
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\bin\Debug\SekatavaraKauppa2.pdb
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\obj\Debug\SekatavaraKauppa2.csprojResolveAssemblyReference.cache
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\obj\Debug\SekatavaraKauppa2.csproj.CoreCompileInputs.cache
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\obj\Debug\SekatavaraKauppa2.exe
+C:\Users\Arttu Lehtovaara\source\repos\Solution1\SekatavaraKauppa2\obj\Debug\SekatavaraKauppa2.pdb
