@@ -70,9 +70,6 @@ namespace SekatavaraKauppa2
     {
         static void Main(string[] args)
         {
-            //Dictionary<string, Tuote> dic = new Dictionary<string, Tuote>();
-            //Tuote kirja = new Kirja();
-            //Tuote aanite = new Aanite();
             SekatavaraMarket marketti = new SekatavaraMarket();
             string valinta;
             do
@@ -84,57 +81,16 @@ namespace SekatavaraKauppa2
                 {
                     case "a":
                         marketti.Kysy();
-                        //dic.Add(kirja.Koodi, kirja);
-                        //Console.Write("Lisäätkö kirjan (k) vai äänitteen (ä)? ");
-                        //string valinta2 = Console.ReadLine();
-                        //if (valinta2 == "k")
-                        //{
-                        //    kirja.Kysy();
-                        //    dic.Add(kirja.Koodi, kirja);
-                        //}
-                        //else
-                        //{
-                        //    aanite.Kysy();
-                        //    dic.Add(aanite.Koodi, aanite);
-                        //}
                         break;
                     case "p":
                         marketti.ToString();
-                        //foreach (KeyValuePair<string, Tuote> kirjaKeyValuePair in dic)
-                        //{
-                        //    Console.WriteLine(kirjaKeyValuePair.Value);
-                        //}
                         break;
                     case "d":
                         marketti.Poista("");
-                        //Console.Write("Anna poistettavan tuotteen koodi: ");
-                        //string r = Console.ReadLine();
-                        //if (dic.TryGetValue(r, out kirja))
-                        //{
-                        //    dic.Remove(r);
-                        //}
-                        //else if (dic.TryGetValue(r, out aanite))
-                        //{
-                        //    dic.Remove(r);
-                        //}
                         break;
                     case "g":
                         marketti.Hae("");
-                        //Console.Write("Anna haettavan tuotteen koodi: ");
-                        //string t = Console.ReadLine();
-
-                        //if (dic.TryGetValue(t, out kirja))
-                        //{
-                        //    Console.WriteLine(kirja);
-                        //}
-                        //else if (dic.TryGetValue(t, out aanite))
-                        //{
-                        //    Console.WriteLine(aanite);
-                        //}
-                        //else
-                        //{
-                        //    Console.WriteLine("Tuotetta ei löytynyt!");
-                        //}
+                        
                         break;
                 }
             } while (valinta != "q");
