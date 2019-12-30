@@ -41,20 +41,6 @@ namespace SekatavaraKauppa2
         }
         public override void Kysy()
         {
-            //Console.Write("Anna äänitteen esittäjä: ");
-            //esittaja = Console.ReadLine();
-            //Console.Write("Anna äänitteen nimi: ");
-            //kuvaus = Console.ReadLine();
-            //Console.Write("Anna äänitteen sanoittaja: ");
-            //sanoittaja = Console.ReadLine();
-            //Console.Write("Anna äänitteen säveltäjä: ");
-            //saveltaja = Console.ReadLine();
-            //Console.Write("Anna äänitteen koodi: ");
-            //koodi = Console.ReadLine();
-            //Console.Write("Anna äänitteen hinta: ");
-            //string syote = Console.ReadLine();
-            //double.TryParse(syote, out hinta);
-            //new Aanite(kuvaus, koodi, hinta, esittaja, saveltaja, sanoittaja);
         }
 
     }
