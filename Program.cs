@@ -3,28 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Määrittele rajapinta YhteisetRajapinnat joka sisältäää metodimäärittelyt string ToString() sekä void Kysy().
- * Rajapinnat toteuttavissa luokissa ToString-metodilla palautetaan merkkijonossa olion sisältö konsolille
- * tulostettavassa muodossa ja Kysy-metodilla kysytään konsolilta olion ominaisuudet.
-
-Määrittele abtraksi luokka Tuote, jota on tarkoitus käyttää periytymisessä kantaluokkana.
-Tuote-luokka toteuttaa rajapinnan YhteisetRajapinnat. Tuote-luokka sisältää jäsenmuuttujat koodi,
-kuvaus ja hinta sekä niille määritellyt vastaavat aksessorit. Määrittele luokalle myös muodostin ja  alustava muodostin,
-jolla alustetaan jäsenmuuttujat.
-
-Määrittele tämän jälkeen kaksi uutta luokkaa, joiden kantaluokkana on Tuote-luokka.
-Nämä uudet luokat ovat Kirja ja Aanite. Kirja-luokalle määritellään lisäjäseneksi tekijä ja sille aksessori sekä
-Aanite-luokalle määritellään esittaja, saveltaja, sanoittaja ja sovittaja aksessoreineen.
-Määrittele Kirja ja Aanite -luokille muodostimet sekää rajapintamäärittelyn vaatimat metodit.
-
-Määrittele luokka SekatavaraMarket, joka perii Dictionary<string,
-Tuote>-säiliöluokan sekä toteuttaa rajapinnan YhteisetRajapinnat.
-
-Tee public static Main() -metodi, joka hoitaa käyttöliittymää.
-Sovelluksella hoidetaan tuotevarastoa, jossa voi olla kirjoja ja äänitteitä.
-Tuotevarasto toteutetaan SekatavaraMarket luokan oliolla, joka on aluksi tyhjä.
-Käyttäliittymässä on pääohjelmasilmukka, jossa kysytääm komentoja, joiden perusteella tehdään toimintoja tuotevarastoon.
-
+/*
 Toteutettavat komennot ovat:
 
 a (add) - lisätään kirja tai äänite tuotevarastoon
